@@ -231,7 +231,7 @@ pm.resonce.to.have.status("Created")\
 });
 
 ## Testing Header
-------------------\
+------------------
 ### check that a response header is present
 pm.test("Contant type header is present", ()=>{\
 pm.response.to.hace.header("Content-Type")\
